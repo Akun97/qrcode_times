@@ -1,0 +1,436 @@
+.button {
+  background-color: #0078e7;
+  border: none;
+  color: white;
+  padding: 16px 20px;
+  text-align: center;
+  font-size: 14px;
+  margin: 0 0px 10px 0;
+  opacity: 1;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  width: 250px;
+}
+
+.button:hover {
+  opacity: 0.6
+}
+
+.time {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.times {
+  color: #af3636;
+  font-size: 24px;
+}
+
+.pure-table-top {
+  margin-top: 20px;
+}
+
+/**/
+.audit {
+  width: 300px;
+}
+
+.audit-text {
+  font-size: 30px;
+}
+
+.waku {
+  border: 3px solid #e2d6d6;
+  padding: 5px;
+  width: 80%;
+}
+
+/**/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 180px;
+  color: #fff;
+  border-radius: 6px;
+  padding: 5px 0px 5px 7px;
+  position: absolute;
+  z-index: 1;
+  top: -7px;
+  left: 24px;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: #4ca1af;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #4ca1af transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* Tooltip container */
+
+.audit {
+  width: 230px;
+}
+
+.content-head {
+  font-size: 18px;
+  color: #FFF;
+}
+
+
+.information-head {
+  font-weight: 600;
+}
+
+.l-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.information {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.l-box {
+  padding: 0.5em 2em;
+}
+
+.table-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-th {
+  width: 40%;
+  background-color: #c8dbe4 !important;
+  font-weight: 600;
+}
+
+/*
+ * -- PRICING TABLE WRAPPER --
+ * This element wraps up all the pricing table elements
+ */
+.pricing-tables,
+.information {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.pricing-tables {
+  margin-bottom: 3.125em;
+  text-align: center;
+}
+
+/*
+ * -- PRICING TABLE  --
+ * Every pricing table has the .pricing-table class
+ */
+.pricing-table {
+  border: 1px solid #ddd;
+  margin: 0 0.5em 2em;
+  padding: 0 0 3em;
+}
+
+/*
+ * -- PRICING TABLE HEADER COLORS --
+ * Choose a different color based on the type of pricing table.
+ */
+.pricing-table-free .pricing-table-header {
+  background: #519251;
+}
+
+.pricing-table-biz .pricing-table-header {
+  background: #2c4985;
+}
+
+/*
+ * -- PRICING TABLE HEADER --
+ * By default, a header is black/white, and has some styles for its <h2> name.
+ */
+.pricing-table-header {
+  background: #111;
+  color: #fff;
+}
+
+.pricing-table-header h2 {
+  margin: 0;
+  padding-top: 2em;
+  font-size: 1em;
+  font-weight: normal;
+
+}
+
+
+/*
+ * -- PRICING TABLE PRICE --
+ * Styles for the price and the corresponding <span>per month</span>
+ */
+.pricing-table-price {
+  font-size: 6em;
+  margin: 0.2em 0 0;
+  font-weight: 100;
+}
+
+.pricing-table-price span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.2em;
+  padding-bottom: 2em;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  *color: #fff;
+}
+
+
+/*
+ * -- PRICING TABLE LIST --
+ * Each pricing table has a <ul> which is denoted by the .pricing-table-list class
+ */
+.pricing-table-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+/*
+ * -- PRICING TABLE LIST ELEMENTS --
+ * Styles for the individual list elements within each pricing table
+ */
+.pricing-table-list li {
+  padding: 0.8em 0;
+  background: #f7f7f7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+
+/*
+ * -- PRICING TABLE BUTTON --
+ * Styles for the "Choose" button at the bottom of a pricing table.
+ * This inherits from Pure Button.
+ */
+.button-choose {
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+  border-radius: 2em;
+  font-weight: bold;
+  position: relative;
+  bottom: -1.5em;
+}
+
+.right-menu {
+  padding-top: 38px !important;
+}
+
+.my-green {
+  color: #aeed4f;
+  display: block;
+  background: -webkit-linear-gradient(#aeed4f, #319c09);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.my-red {
+  color: #fd1402;
+  display: block;
+  background: -webkit-linear-gradient(#fd1402, #d12123);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.my-blue {
+  color: #3fa6d0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+body {
+  line-height: 1.7em;
+  color: #7f8c8d;
+  font-size: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  color: #34495e;
+}
+
+.pure-img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+ * -- LAYOUT STYLES --
+ * These are some useful classes which I will need
+ */
+.l-box {
+  padding: 1em;
+}
+
+.l-box-lrg {
+  padding: 2em 0 0 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.is-center {
+  text-align: center;
+}
+
+
+/*
+ * -- PURE BUTTON STYLES --
+ * I want my pure-button elements to look a little different
+ */
+.pure-button {
+  background-color: #1f8dd6;
+  color: white;
+  padding: 0.5em 2em;
+}
+
+a.pure-button-primary {
+  background: white;
+  color: #1f8dd6;
+  font-size: 120%;
+}
+
+
+/*
+ * -- MENU STYLES --
+ * I want to customize how my .pure-menu looks at the top of the page
+ */
+
+.home-menu {
+  padding: 0.5em;
+  text-align: center;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
+}
+
+.home-menu {
+  background: #000;
+}
+
+.pure-menu.pure-menu-fixed {
+  /* Fixed menus normally have a border at the bottom. */
+  border-bottom: 3px solid #dd0037;
+  /* I need a higher z-index here because of the scroll-over effect. */
+  z-index: 4;
+}
+
+
+.home-menu .pure-menu-selected a {
+  color: white;
+}
+
+.home-menu a {
+  color: #FFF;
+}
+
+.home-menu li a:hover,
+.home-menu li a:focus {
+  background: none;
+  border: none;
+  color: #AECFE5;
+}
+
+
+/*
+ * -- CONTENT STYLES --
+ * This represents the content area (everything below the blue section)
+ */
+.content-wrapper {
+  /* These styles are required for the "scroll-over" effect */
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  min-height: 12%;
+  z-index: 2;
+  background: white;
+
+}
+
+/* We want to give the content area some more padding */
+.content {
+  padding: 1em 1em 3em;
+}
+
+/* This is the class used for the main content headers (<h2>) */
+.content-head {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 1em 0 1em;
+
+}
+
+
+/* This is the class used for the dark-background areas. */
+.ribbon {
+  background: #2d3e50;
+  color: #aaa;
+}
+
+/* This is the class used for the footer */
+.footer {
+  background: #111;
+  /*position: fixed;*/
+  bottom: 0;
+  width: 100%;
+}
+
+.home-menu {
+  text-align: left;
+}
+
+.home-menu ul {
+  float: right;
+}
+
+
+/* We remove the border-separator assigned to .l-box-lrg */
+.l-box-lrg {
+  border: none;
+}
