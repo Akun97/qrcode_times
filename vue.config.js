@@ -75,12 +75,12 @@ module.exports = {
 	devServer: {
 		open: process.platform === "darwin",
 		disableHostCheck: false,
-		https: true,
+		https: false,
 		hot:true,
 		hotOnly: true,
 		proxy: {
 			'/sss': {
-        target: 'http://120.79.138.5:8081',
+        target: 'http://genuine.icom.link',
         ws: true,
         changeOrigin: true,
         pathRewrite: {

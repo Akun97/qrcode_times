@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-let baseUrl = process.env.NODE_ENV === 'development' ? '/sss' : 'http://120.79.138.5:8081';
+let baseUrl = process.env.NODE_ENV === 'development' ? '/sss' : 'http://genuine.icom.link';
 
 // 创建 axios 实例
 let service = axios;
